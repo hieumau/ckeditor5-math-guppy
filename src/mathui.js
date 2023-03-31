@@ -16,7 +16,7 @@ import mathIcon from '../theme/icons/math.svg';
 
 const mathKeystroke = 'Ctrl+M';
 
-import { Guppy } from './guppy/guppy';
+import Guppy from './guppy/guppy';
 
 
 export default class MathUI extends Plugin {

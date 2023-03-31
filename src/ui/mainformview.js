@@ -24,7 +24,7 @@ import '../../theme/mathform.css';
 
 import '../../theme/mathform.css';
 import '../../theme/guppy-default-osk.min.css';
-import { Guppy } from '../guppy/guppy';
+import Guppy from '../guppy/guppy';
 
 export default class MainFormView extends View {
 	constructor( locale, engine, lazyLoad, previewEnabled, previewUid, previewClassName, popupClassName, katexRenderOptions ) {

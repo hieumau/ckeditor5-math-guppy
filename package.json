@@ -1,5 +1,5 @@
 {
-  "name": "ckeditor5-math",
+  "name": "ckeditor5-math-guppy",
   "version": "36.0.2",
   "description": "Math feature for CKEditor 5.",
   "keywords": [
@@ -9,7 +9,7 @@
     "ckeditor5-feature",
     "ckeditor5-plugin",
     "ckeditor5-math",
-	"katex"
+    "katex"
   ],
   "resolutions": {
     "postcss-loader": "^4.3.0",
@@ -53,10 +53,12 @@
   },
   "author": "Sauli Anto",
   "license": "ISC",
-  "bugs": "https://github.com/isaul32/ckeditor5-math/issues",
+  "bugs": {
+    "url": "https://github.com/isaul32/ckeditor5-math/issues"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/isaul32/ckeditor5-math.git"
+    "url": "git+https://github.com/isaul32/ckeditor5-math.git"
   },
   "files": [
     "lang",
@@ -88,5 +90,7 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
-  }
+  },
+  "homepage": "https://github.com/isaul32/ckeditor5-math#readme",
+  "main": "index.js"
 }
